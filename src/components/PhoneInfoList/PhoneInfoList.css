@@ -1,0 +1,9 @@
+.phone-info-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-info-list .phone-info {
+  margin-bottom: 10px;
+  padding: 10px;
+}

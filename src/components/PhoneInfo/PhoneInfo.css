@@ -1,0 +1,61 @@
+.phone-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 92%;
+}
+
+.input-field input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.name-field {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.edit-button,
+.apply-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.apply-button {
+  background-color: #1976d2;
+}
+.delete-button {
+  background-color: #f44336;
+}
+
+.phone-field,
+.lname-field,
+.address-field,
+.city-field,
+.country-field,
+.email-field {
+  margin-bottom: 10px;
+}
